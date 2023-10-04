@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/screen2"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="@dimen/screen_padding"
+              tools:context="br.com.whitemartins.obc.views.AddMessageActivity">
+
+    <ScrollView
+        android:id="@+id/screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center_horizontal"
+                android:text="@string/mensagem_adicional"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/edt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYçÇZabcdefghijklmnopqrstuvwxyz1234567890:;,.-!?/%@() "
+                android:inputType="textPhonetic"
+                android:maxLength="32"/>
+
+            <EditText
+                android:id="@+id/edt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYçÇZabcdefghijklmnopqrstuvwxyz1234567890:;,.-!?/%@() "
+                android:layout_marginTop="10dp"
+                android:enabled="true"
+                android:inputType="textEmailAddress"
+                android:maxLength="32"/>
+
+            <EditText
+                android:id="@+id/edt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:enabled="true"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYçÇZabcdefghijklmnopqrstuvwxyz1234567890:;,.-!?/%@() "
+                android:maxLength="32"/>
+
+            <EditText
+                android:id="@+id/edt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYçÇZabcdefghijklmnopqrstuvwxyz1234567890:;,.-!?/%@() "
+                android:layout_marginTop="10dp"
+                android:enabled="true"
+                android:maxLength="32"/>
+
+            <EditText
+                android:id="@+id/edt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYçÇZabcdefghijklmnopqrstuvwxyz1234567890:;,.-!?/%@() "
+                android:layout_marginTop="10dp"
+                android:enabled="true"
+                android:maxLength="32"/>
+
+
+            <EditText
+                android:id="@+id/edt6"
+                android:layout_width="match_parent"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYçÇZabcdefghijklmnopqrstuvwxyz1234567890:;,.-!?/%@() "
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:maxLength="32"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnConfirmarMensagemAdicional"
+                    android:layout_width="@dimen/button_w"
+                    android:layout_height="@dimen/button_h"
+                    android:background="@color/appTextColorWithBackground"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/ic_finalizar"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.whitemartins.obc"
+    android:versionCode="180"
+    android:versionName="1.80" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="false" />
+
+    <uses-permission android:name="com.honeywell.decode.permission.DECODE" />
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <application
+        android:name="br.com.whitemartins.obc.views.DatabaseApp"
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <receiver
+            android:name="br.com.whitemartins.obc.receiver.DevAdminReceiver"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin" />
+        </receiver>
+
+        <activity
+            android:name="br.com.whitemartins.obc.views.InvoiceVorActivity"
+            android:label="@string/title_activity_invoice_vor" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.ChargeConsultActivity"
+            android:label="@string/menu_report_charge_consult" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="br.com.whitemartins.obc.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <activity android:name="br.com.whitemartins.obc.views.SplashScreemActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.whitemartins.obc.views.SignatureActivity"
+            android:label="@string/signature_title" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <activity
+            android:name="br.com.whitemartins.obc.views.ConfirmTravelDataActivity"
+            android:label="@string/confirm_travel_data" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.CustomerServiceActivity"
+            android:label="@string/customer_service_label" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.CustomerStopActivity"
+            android:label="@string/client_select" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.RecoverClientActivity"
+            android:label="@string/title_activity_recovery_client_view" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.ConfirmCustomerActivity"
+            android:label="@string/confirm_travel_client" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.OperationsActivity"
+            android:label="@string/client_stop" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.CustomerListActivity"
+            android:label="@string/client_list_title" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.InvoiceActivity"
+            android:label="@string/order_sell" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.AddItemActivity"
+            android:label="@string/add_item" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.InvoiceRastreabActivity"
+            android:label="@string/rastreabilidade" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.InvoiceFinishActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/finish_order"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.CecActivity"
+            android:label="@string/titulo_cec" />
+        <activity android:name="br.com.whitemartins.obc.views.BarCodeActivity" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.ItemListActivity"
+            android:label="@string/product_list_title" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.LoadTravelActivity"
+            android:label="@string/title_activity_load_travel" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.ChargeCheckActivity"
+            android:label="@string/title_activity_charge_check" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.BeginTravelActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_begin_travel" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.AddMessageActivity"
+            android:label="@string/title_activity_add_message" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.CilinderPPActivity"
+            android:label="@string/title_cilinder_pp" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.ActivateDeviceActivity"
+            android:label="@string/title_activity_activate_user" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.CustomerOrderActivity"
+            android:label="@string/title_activity_client_order" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.ReprintCecActivity"
+            android:label="@string/title_activity_reimpressao" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.SearchActivity"
+            android:label="@string/title_activity_search" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.BeginSearchActivity"
+            android:label="@string/title_activity_begin_pesquisa" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.PaymentCardActivity"
+            android:label="@string/title_activity_payment_card" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.InvoiceViewActivity"
+            android:label="@string/title_activity_invoice_view" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.InvoiceSyncActivity"
+            android:label="@string/title_sync_invoices" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.InvoiceLostActivity"
+            android:label="@string/title_lost_invoices" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.LotePatActivity"
+            android:label="@string/title_activity_lot_pat" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.VolumeInformationActivity"
+            android:label="@string/title_activity_volume_information" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.FutViewActivity"
+            android:label="@string/title_activity_fut_view" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.TransferActivity"
+            android:label="@string/title_activity_transfer" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.TransferMenuActivity"
+            android:label="@string/title_activity_tranfer_menu" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.InvoicePendentActivity"
+            android:label="@string/title_activity_invoice_pendent" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.InvoiceImagePendentActivity"
+            android:label="@string/title_activity_cecs_pendent" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.ReportActivity"
+            android:label="@string/title_activity_report" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.FinishTravelActivity"
+            android:label="@string/title_activity_finish_trip" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.DeleteBaseActivity"
+            android:label="@string/title_activity_delete_data_base" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.CountCylinderActivity"
+            android:label="@string/title_activity_counter_cilinder" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.CountHCActivity"
+            android:label="@string/title_activity_counter_hc" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.NextTripActivity"
+            android:label="@string/title_activity_next_trip" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.ConfigActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.RecoveryClientViewActivity"
+            android:label="@string/title_activity_recovery_client_view" />
+        <activity
+            android:name="br.com.whitemartins.obc.views.PrinterDiscoverActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_bluetooth_discover" />
+
+        <provider
+            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="br.com.whitemartins.obc.lifecycle-trojan"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+    </application>
+
+</manifest>

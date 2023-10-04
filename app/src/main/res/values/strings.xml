@@ -1,0 +1,650 @@
+<resources>
+
+    <!--<string name="OBC_NET_CONFIG">OBCNetConfig.xml</string>-->
+    <!--<string name="obc_net_upgrade">OBCUpgradeAndroid</string>-->
+    <!--<string name="obc_net_file">OBCAndroid.apk</string>-->
+    <!--<string name="fileManager_do">/servlet/fileManager.do?</string>-->
+    <!--<string name="ROOT_ELEMENT_CONFIG">AppConfig</string>-->
+
+    <!-- MENSAGENS DO SISTEMA-->
+    <!--<string name="ERRO">ERRO</string>-->
+    <string name="INFO">INFO</string>
+    <string name="zero">0.00</string>
+
+    <string name="limpar_text">Limpar</string>
+    <string name="erro_text">ERRO</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="confirmar_text">CONFIRMAÇÃO</string>
+    <string name="informar_text">INFORMAÇÃO</string>
+    <string name="fechar_text">FECHAR</string>
+    <string name="attention">ATENÇÃO</string>
+    <string name="granted_perms">Permissões concedidas.</string>
+    <string name="internet_conn_error">Favor verificar a conexão com a internet.</string>
+    <string name="travel_icorrect">Número da viagem incorreto.</string>
+    <string name="incluir_item_pedido">Confirmar a inclusão do item %s ao pedido?</string>
+    <string name="cliente_invalido_operacao">Cliente inválido ou inexistente na viagem.</string>
+    <string name="excluir_item_pedido">Deseja excluir o item %s do pedido?</string>
+    <string name="exit_confirm_travel_msg">Os dados da viagem serão perdidos! Confirma?</string>
+    <string name="exit_confirm_clean_table_data">APAGANDO DADOS DAS TABELAS</string>
+    <string name="printer_title">Imprimindo…</string>
+    <string name="send_data_printer">Aguarde o término da impressão…</string>
+    <string name="send_data_printer_ok">DADOS ENVIADOS</string>
+    <string name="send_data_printer_fail">Houve falha na impressão! O %s não será impresso.
+        \nDeseja realizar nova tentativa?</string>
+    <string name="bar_code_msg">CODIDO VERIFICADO COM SUCESSO</string>
+    <string name="empty_data">Preencha os dados para inclusão do item.</string>
+    <string name="invalid_quantity">Quantidade informada superior ao saldo do item.</string>
+    <string name="empty_product_code_msg">Preencha ou selecione um código de produto.</string>
+    <string name="invalid_product_code_msg">Item inexistente</string>
+    <string name="yes">SIM</string>
+    <string name="no">NÃO</string>
+    <string name="end_success">Finalizado com sucesso.</string>
+    <string name="end_error">Finalizado com erro.</string>
+    <string name="charge_file_error">Erro ao ler arquivo %s. Linha %d.</string>
+    <string name="prog_message">Aguarde o fim do processamento.</string>
+    <string name="num_viagem_manifesto">Informe a viagem impressa no manifesto:</string>
+    <string name="check_carga_error">Existem patrimônios que não foram informados. Favor verificar!</string>
+    <string name="fim_check_carga">Deseja finalizar o check de carga?</string>
+    <string name="dois_pontos">:</string>
+    <string name="patrimonio">Patrimônio:</string>
+    <string name="serie_patrimonio">Série:</string>
+    <string name="patrimonios">Patrimônios</string>
+    <string name="patrimonio_ja_informado">Patrimônio %s já informado</string>
+    <string name="patrimonio_invalido_item">Patrimônio não pertence ao item!</string>
+    <string name="arquivo_finalizado_sucesso">Arquivo %s finalizado com sucesso!</string>
+    <string name="arquivo_finalizado_erro">Arquivo %s finalizado com erro: %s!</string>
+    <string name="arquivo_nao_encontrado">Arquivo %s não encontrado!</string>
+    <string name="tabela_finalizado_sucesso">Arquivo %s finalizado com sucesso!</string>
+    <string name="tabela_finalizado_erro">Arquivo %s finalizado com erro: %s!</string>
+
+    <string name="ler_arquivo_carga">Lendo arquivo %s %d de %d.</string>
+    <string name="pedido_sem_item">Pedido não contém nenhum item.</string>
+
+    <string name="update_titulo">Atualizando versão</string>
+    <string name="current_file">Baixando arquivo %s</string>
+    <string name="update_message">Existe uma nova versão disponível para atualização. \nO processo de atualização será iniciado…</string>
+    <string name="update_error_message">"Ocorreu um erro durante a atualização de versão. \nFavor realizar nova tentativa."</string>
+
+    <string name="apagando_tabela">Apagando tabela %s</string>
+    <string name="informar_horometro">Favor informar o hodômetro</string>
+    <string name="invoice_exists">Existem Notas Fiscais emitidas na viagem! \nTodos os dados serão perdidos!</string>
+    <string name="cancel_travel">Ao prosseguir com esta operação, todos os dados da viagem serão perdidos!</string>
+    <string name="viagem_interrompida">Interrupção de viagem carregada.</string>
+
+    <string name="pergunta_operadora">A operação Remessa Faturamento HC está disponível para o cliente! Deseja continuar na operação de Venda?</string>
+    <string name="venda_invalida_paciente">Operação Inválida! \nUtilizar opção Remessa Faturamento HC!</string>
+    <string name="update_price_password">Digite senha para alteração de preços!</string>
+    <string name="pergunta_msg_adiconal">Deseja informar dados adicionais à Nota Fiscal do cliente?</string>
+    <string name="status">Status: %s</string>
+    <string name="create_invoice">Criando Nota Fiscal!</string>
+    <string name="send_invoice">Enviando Nota Fiscal!</string>
+    <string name="cancel_invoice">Enviando Cancelamento da Nota Fiscal!</string>
+    <string name="find_invoice">Consultando Nota Fiscal!</string>
+    <string name="get_invoice">Buscando notas fiscais</string>
+    <string name="nota">Nota</string>
+    <string name="operacao">Operação</string>
+    <string name="serie">Série</string>
+    <string name="evento">Evento</string>
+    <string name="status_nfe">Status NFe</string>
+    <string name="status_">Status</string>
+    <string name="msg_nova_tentativa_invoice">%s será impresso Off Line! Deseja realizar nova tentativa?</string>
+    <string name="seq">Seq.</string>
+    <string name="data_pedido_fut">Data Pedido</string>
+
+    <string name="create_invoice_error">Erro ao criar nota fiscal!</string>
+    <string name="title_activity_activate_user">Ativação do Dispositivo</string>
+    <string name="ativando_imei">Ativando o IMEI</string>
+    <string name="txtTituloConsultInvoice">Testando conexão</string>
+    <string name="conn_estabilish">Estabelecendo conexão com o servidor</string>
+
+    <string name="ativando_titulo">Validando</string>
+    <string name="dispositivo_nao_validado">Dispositivo não validado, favor validar.</string>
+    <string name="ativado_sucesso">Dispositivo ativado com sucesso.</string>
+
+    <string name="title_activity_client_order">Pedido do Cliente</string>
+    <string name="title_activity_reimpressao">Reimpressão de CEC/DANFE</string>
+
+    <string name="app_name">OBC</string>
+    <string name="app_file_encoding">ISO-8859-1</string>
+
+    <string name="hodometro">Hodômetro:</string>
+
+    <!-- CONSTANTE DA TELA DE CLIENTE NOVO -->
+    <string name="new_client_screen_title">Novo Cliente</string>
+
+    <!-- CONSTANTES CONFIRMACAO DE VIAGEM -->
+    <string name="confirm_travel_data">Confirmar Dados da Viagem</string>
+    <string name="confirm_travel_client">Confirmação dos Dados do Cliente</string>
+    <string name="num_travel">Número da Viagem: </string>
+    <string name="travel_date">Data da Viagem: </string>
+    <string name="num_vehicle">Número do Veículo:</string>
+    <string name="unidade">Filial (RBA/RBU):</string>
+    <string name="rout_num">Rota:</string>
+    <string name="cancelar_viagem">Cancelar Viagem</string>
+
+    <!-- CONSTANTE DE LISTAGEM-->
+    <string name="client_list_title">Lista de Clientes</string>
+    <string name="product_list_title">Lista de Produtos</string>
+
+    <!-- CONSTANTES CONFIRMACAO DE VIAGEM -->
+    <string name="customer_service_label">Menu Principal</string>
+
+    <!-- CONSTANTES CARGA DA VIAGEM -->
+    <string name="nVeiculo">Código do Veículo: </string>
+    <string name="load_travel">CARREGAR VIAGEM</string>
+    <string name="config_connection">CONFIGURAR CONEXÃO</string>
+    <string name="error_unidade">Entre com o código da unidade.</string>
+    <string name="error_veiculo">Entre com o código do veículo.</string>
+    <string name="file_not_found_error">Arquivo não encontrado.</string>
+    <string name="file_not_found_error_2">Arquivo não encontrado.\nVerifique se filial e veículo estão corretos.</string>
+
+    <!-- MENU DA APLICAÇÃO -->
+    <string name="about">Sobre o Aplicativo</string>
+    <string name="voltar">Voltar</string>
+
+    <!--TELA DE PARADA DO CLIENTE-->
+    <string name="client_select">Seleção do Cliente</string>
+    <string name="client_stop">Operações do Cliente</string>
+    <string name="client_number">Código do Cliente: </string>
+
+    <!--TELA DE CONFIGURAÇÃO DO SISTEMA-->
+    <!--TELA DE CONFIGURAÇÃO DO SISTEMA-->
+    <string name="system_settings">CONFIGURAÇÃO DO SISTEMA</string>
+    <string name="system_version">Versão %s</string>
+    <string name="battery_status">Status da Bateria</string>
+
+    <!--TELA DE CONFIGURAÇÃO DO SISTEMA-->
+    <string name="customer_recovery">RECUPERAÇÃO ON LINE DE CLIENTE</string>
+    <string name="customer_recovery_message">
+        Favor informar o código JDE do cliente a ser recuperado ou atualizado na viagem!</string>
+
+    <!--TELA DE CONFIRMAÇÃO DO CLIENTE-->
+    <string name="client_confirm">CONFIRMAÇÃO DE CLIENTE</string>
+    <string name="codigo_titulo">Código</string>
+    <string name="codigo">Código:</string>
+    <string name="client_name">Nome:</string>
+    <string name="client_address">Endereço:</string>
+    <string name="client_cnpj_cpf">CNPJ/CPF:</string>
+    <string name="client_ie">Inscrição Estadual:</string>
+    <string name="client_razao_social">Razão Social:</string>
+    <string name="client_nome_fantasia">Nome Fantasia:</string>
+    <string name="client_telefone_principal">Telefone Principal:</string>
+    <string name="client_contato">Contato:</string>
+    <string name="tecnico_responsavel">Técnico Responsável:</string>
+    <string name="distribuidora_gas">Distribuidora de Gás:</string>
+    <string name="unidade_responsavel">Filial Responsável:</string>
+    <string name="client_negocio">Negócio:</string>
+    <string name="client_segmento">Segmento:</string>
+    <string name="client_subsegmento">SubSegmento:</string>
+    <string name="client_email">E-mail NF-e:</string>
+
+    <string name="client_codigo_situacao">Código de Situação</string>
+    <string name="client_ramo_atividade">Ramo de Atividade</string>
+    <string name="client_natureza_juridica">Natureza Jurídica</string>
+    <string name="client_classe">Classe Contribuinte</string>
+    <string name="client_esfera_fiscal">Esfera Fiscal</string>
+    <string name="client_preco">Preço</string>
+    <string name="client_condicao_pagamento">Condição de Pagamento</string>
+
+    <!-- CONSTANTES TELA DETALHE CLIENTE-->
+    <string name="client_sell">VENDA</string>
+    <string name="client_application">Aplicação</string>
+    <string name="client_gathering">Recolhimento</string>
+    <string name="client_change_order">ORDEM DE TROCA(BAIXA S8)</string>
+    <string name="client_future_delivery">REMESSA FATURA ENTREGA</string>
+    <string name="client_billing_shipment">REMESSA FATURAMENTO HC</string>
+    <string name="client_shipping_sale">REMESSA VENDA A ORDEM</string>
+    <string name="client_shipping_service">REMESSA PRESTAÇÃO DE SERVIÇO</string>
+    <string name="client_consult_invoice">CONSULTA/CANCELA NOTA FISCAL</string>
+    <string name="unimed_fake">52288641 - UNIMED RIO COOPERAT</string>
+
+    <!-- MENU BAR OPTIONS-->
+    <string name="menu_config_system">Configurar Sistema</string>
+    <string name="menu_recover_client">Recuperar Cliente</string>
+    <string name="signup_client">Cadastrar novo Cliente</string>
+    <string name="menu_travel_data">Dados da Viagem</string>
+    <string name="title_activity_detalhe_cliente">DetalheClienteActivity</string>
+
+    <!-- CONSTANTES TELA VENDA DE PEDIDOS-->
+    <string name="order_sell">Pedido</string>
+    <string name="add_item">Adicionar Item ao Pedido</string>
+    <string name="order_sell_number_product">Código do Item</string>
+    <string name="order_sell_order">Nº DO PEDIDO</string>
+    <string name="order_sell_list">LISTAR</string>
+    <string name="qtd_itens">Quantidade Total: </string>
+    <string name="qtd_itens_pedido">Quantidade de Itens no Pedido: </string>
+    <string name="saldo_disponivel">Saldo Disponível do Produto: %s</string>
+    <string name="price">Preço:</string>
+    <string name="frete">Frete:</string>
+    <string name="certificado">Certificado:</string>
+    <string name="finish_sell">FINALIZAR PEDIDO</string>
+    <string name="cylinder">Cilindro:</string>
+
+    <string name="descricao">Descrição</string>
+    <string name="capacidade">Capacidade</string>
+    <string name="quantidadeVendida">Quantidade:</string>
+    <string name="quantidadeVendida_">Quantidade</string>
+    <string name="qtd">Qtd.</string>
+    <string name="lot">Lote:</string>
+    <string name="cilindro_cod_barra">Ler código de barras do cilindro</string>
+    <string name="lote_cod_barra">Ler código de barras do loteFabricacao</string>
+    <string name="cod_barra">Ler código de barras</string>
+
+    <!-- CONSTANTE DA TELA DE RASTREABILIDADE DE ITENS-->
+    <string name="rastreabilidade">Rastreabilidade de Cilindros</string>
+    <string name="lote_invalido">Código do Lote inválido.</string>
+    <string name="cilindro_invalido">Código do Cilindro inválido.</string>
+    <string name="cilindro_informado">Código do Cilindro já utilizado.</string>
+    <string name="encerrar_rastreab">Deseja encerrar leitura de Lote/Cilindro?</string>
+    <string name="informar_cilindro">Informar Código do Cilindro</string>
+    <string name="informar_lote">Informar Código do Lote</string>
+
+    <!-- CONSTANTE DA TELA DE FINALIZAR PEDIDO-->
+    <string name="finish_order">Finalizar Pedido</string>
+    <string name="total_order">Total do Pedido:</string>
+    <string name="money">Dinheiro:</string>
+    <string name="change">Troco:</string>
+    <string name="check">Cheque:</string>
+    <string name="check_number">Número do Cheque:</string>
+    <string name="debit_card">Cartão Débito:</string>
+    <string name="credit_card">Cartão Crédito:</string>
+    <string name="fatura">Fatura (Pagamento a prazo):</string>
+    <string name="title_activity_send_invoice">Enviando NFe</string>
+
+    <!-- CONSTANTE DA TELA DE FINALIZAR PEDIDO-->
+    <string name="cancel_header_message">Atenção! Aguarde a finalização do processo de cancelamento da NFe.</string>
+
+    <string name="send_invoice_warning_1">Atenção! Aguarde a finalização do processo de emissão da NFe.</string>
+    <string name="time_generator">00:10</string>
+    <!--<string name="status_invoice">Status: Criando Nota Fiscal</string>-->
+    <string name="send_invoice_warning_2">
+        Atenção! Não é permitido reiniciar o dispositivo (BOOT) até que o CEC seja impresso.</string>
+
+    <!-- CONSTANTE DA TELA DE Canhoto-->
+    <string name="titulo_cec">Canhoto de Entrega ao Cliente</string>
+    <string name="titulo_rec">Recibo de Entrega ao Cliente</string>
+    <string name="customer">Cliente</string>
+    <string name="nfe_serie">NFe/Série:</string>
+    <string name="operation">Operação:</string>
+    <string name="access_key">Chave Acesso:</string>
+    <string name="protocol_user">Protocolo de Autorização de Uso:</string>
+    <string name="item">Item</string>
+    <string name="item_">Item: %s</string>
+    <string name="volume">Volume</string>
+    <string name="total_value_order">Valor Total da Nota Fiscal R$:</string>
+
+    <string name="title_activity_add_message">Dados Adicionais</string>
+    <string name="mensagem_adicional">Dados adicionais a serem impressos na NFe</string>
+    <string name="informar_pps">Todos os código devem ser informados.</string>
+    <string name="pp_invalidos">
+        Existem valores repetidos ou inválidos.\nFavor informar valores válidos.</string>
+
+    <!-- CONSTANTE TELA DE ASSINATURA-->
+    <string name="signature_title">Assinatura</string>
+
+    <string name="nome_text">Nome:</string>
+    <string name="rg_text">RG/CPF:</string>
+
+    <!-- Main Activity -->
+    <string name="conn_type">Connection Type:</string>
+
+    <!-- Connection Settings -->
+    <string name="cancel_button">Cancelar</string>
+    <string name="tab_geral">Geral</string>
+    <string name="tab_nfe">NFe</string>
+    <string name="title_negocio">Negócio</string>
+    <string name="title_venda">Venda</string>
+    <string name="title_activity_clien_new">ClienNewActivity</string>
+
+    <string name="salvar">Salvar</string>
+    <string name="title_activity_load_travel">Carga dos Dados da Viagem</string>
+    <string name="un_medida">Un.</string>
+    <string name="vl_unitario">Vl.Unit</string>
+    <string name="vl_total">Vl.Total</string>
+
+    <string name="preco_unitario">Preço Unitário:</string>
+
+    <!--TELA DE CONFIGURAÇÃO-->
+    <string name="title_activity_settings">Configurações</string>
+    <string name="enviroment">Ambiente</string>
+    <string name="charge_server">Servidor de Comunicação</string>
+    <string name="charge_servlet">Servidor de Carga</string>
+    <string name="update_servlet">Servidor de Atualização</string>
+    <string name="recovery_servlet">Servidor de Restauração</string>
+    <string name="contingency_server">Servidor de Contingência</string>
+
+    <string name="total_time">Tempo Total (minutos)</string>
+    <string name="time_number">Número de Tentativas</string>
+    <string name="time_out">Time Out (segundos)</string>
+    <string name="time_out_2">Time Out 2 (segundos)</string>
+
+    <string name="clean_log_msg">O log da NFe será apagado. Confirma?</string>
+
+    <string name="test_config">Testar Conexão</string>
+    <string name="conn_ok">Conexão efetuada com sucesso!</string>
+    <string name="conn_error">Falha na conexão! \n\nVerifique se a conexão com a internet está ativa.</string>
+
+    <!--TELA DE SENHA-->
+    <string name="titulo_senha">Digitação de Senha</string>
+    <string name="numero_senha">Número:</string>
+    <string name="password">Senha:</string>
+    <string name="password_error">Senha inválida. Favor verificar!</string>
+    <string name="title_activity_charge_check">Check de Carga</string>
+
+    <string name="title_activity_begin_travel">Iniciando Viagem</string>
+    <string name="select_beginning">Escolha uma opção abaixo:</string>
+    <string name="tipo_item">Tipo de Item</string>
+    <string name="gas">Gás</string>
+    <string name="cilindro">Cilindro</string>
+    <string name="equipamento">Equipamento</string>
+    <string name="consumivel">Consumível</string>
+
+    <string name="poder_calorifico">Poder Calorífico Superior do GNL: %d Kcal/m3</string>
+    <string name="fator_correcao">Fator de Correção Poder Calorífico: %d Kcal/m3</string>
+
+    <string name="filial_fabrica">FILIAL/FABRICA: %s</string>
+    <string name="veiculo_rota_viagem">VEICULO: %s ROTA: %d VIAGEM: %d</string>
+    <string name="cod_doc">COD.DOC: %s</string>
+
+    <string name="cond_pagto">COND.PAGTO.: %s</string>
+    <string name="num_parc">NUM.PARC.: %d</string>
+    <string name="entrada">ENTRADA: %s</string>
+
+    <string name="valor_operacao">Vlr Operacao R$: %s</string>
+    <string name="icms_rodape"> Vlr ICMS em forma de desconto R$: %s</string>
+    <string name="cilindo_pp">- Cilindro PP: %s</string>
+    <string name="lote_rastreab_cilindro">Item: %d Lote: %s Cilindro: %s</string>
+    <string name="title_cilinder_pp">Mensagem do cilindro PP</string>
+    <string name="imei">Imei:</string>
+    <string name="chave_ativacao">Chave de Ativação:</string>
+    <string name="url">Url Serivdor:</string>
+    <string name="pedido_cliente">Pedido do Cliente</string>
+    <string name="item_pedido_cliente">Item do Cliente</string>
+    <string name="fechar_sem_salvar">As informações digitadas serão perdidas. Confirma?</string>
+    <string name="informar_pedido_cliente">Deseja informar o número do pedido do cliente?</string>
+    <string name="repeticao_pedido_cliente">Não é permitido itens iguais para o mesmo pedido!</string>
+    <string name="incompleto_pedido_cliente">Existem informações incompletas, favor verificar!</string>
+    <string name="finalizar_pedido_cliente">Digitação do Pedido/Item do Cliente finalizada?</string>
+    <string name="finalizar_pedido_cliente_vazio">Número do Pedido e Sequencial do Item não informados! Confirma?</string>
+    <string name="observacao_pedido_cliente">- Número do Pedido do Cliente: %s</string>
+    <string name="observacao_item_pedido_cliente">- Item: %d - Sequencial: %s</string>
+    <string name="title_activity_search">Pesquisa de Satisfação</string>
+    <string name="title_activity_pesquisa">PesquisaActivity</string>
+    <string name="title_activity_begin_pesquisa">Dados Motorista</string>
+    <string name="motorista">Motorista</string>
+    <string name="cargo">Cargo:</string>
+    <string name="telefone">Telefone:</string>
+
+    <string name="informar_motorista">Informar o motorista</string>
+    <string name="informar_contato">Informar o contato</string>
+    <string name="informar_cargo">Informar o cargo</string>
+    <string name="informar_telefone">Informar o telefone</string>
+    <string name="realizar_pesquisa">Cliente deseja realizar Avaliação?</string>
+    <string name="finalizar_pesquisa">Pesquisa realizada com sucesso</string>
+    <string name="selecionar_opcao_pesquisa">Cliente deve selecionar uma resposta!</string>
+    <string name="title_activity_payment_card">Detalhes Pagamento</string>
+    <string name="credenciadora">Credenciadora:</string>
+    <string name="bandeira">Bandeira:</string>
+    <string name="autorizacao">Autorização:</string>
+    <string name="valor_pago">Valor Pago:</string>
+    <string name="valor">Valor</string>
+
+    <string name="cred">Cred.</string>
+    <string name="band">Bandeira</string>
+    <string name="aut">Autorização</string>
+    <string name="excluir_item_pagamento">Deseja excluir o item %s do pagamento?</string>;
+
+    <string name="valor_cartao_credito">Valor Cartão de Crédito: R$ %s</string>
+    <string name="valor_cartao_debito">Valor Cartão de Débito: R$ %s</string>
+    <string name="valor_pendente">Valor Pendente: R$ %s</string>
+
+    <string name="selecionar_band">Selecione a Bandeira.</string>
+    <string name="selecionar_cred">Selecione a Credenciadora.</string>
+    <string name="informar_autorizacao">Informar o Número da Autorização.</string>
+    <string name="informar_valor">Informe o valor.</string>
+    <string name="valor_invalido">Valor Inválido.</string>
+    <string name="autorizacao_informada">Autorização já informada em outro pagamento.</string>
+    <string name="finalizar_pagamento">Deseja finalizar a informação dos pagamentos?</string>
+    <string name="erro_sem_pagamento">Não foi informado nenhum pagamento!</string>
+    <string name="erro_valor_informado">Valor informado diferente do valor total!</string>
+    <string name="erro_fim_pedido">Valor da fatura inferior a R$ 1,00.</string>
+    <string name="erro_valor_pedido">Valor diferente do total do pedido</string>
+    <string name="numero_cheque_obrigatorio">Número do cheque obrigatório.</string>
+    <string name="title_activity_invoice_view">Consulta de Notas Fiscais</string>
+
+    <string name="msg_cancel_nota">Confirmar cancelamento da nota fiscal %s?</string>
+    <string name="title_activity_motive_cancel">Cancelar Operação</string>
+    <string name="motivo">Selecione o Motivo:</string>
+    <string name="title_activity_lot_pat">Lote / Patrimônio</string>
+    <string name="lot_fab">Lote de Fabricação:</string>
+    <string name="informar_lote_pat">Deseja informar o Número de Lote de Fabricação do Item?</string>
+    <string name="equipamento_at">O equipamento será recolhido para Assistência Técnica?</string>
+    <string name="finalizar_lote_patrimonio">Deseja encerrar a digitação do %s?</string>
+    <string name="patrimonio_informado_nota_rcl">Número do Patrimônio já informado em outra nota de Recolhimento emitida na viagem!</string>
+    <string name="patrimonio_informado_nota_apl">Número do Patrimônio já informado em outra nota de Aplicação emitida na viagem!</string>
+    <string name="patrimonio_nao_aplicado">Não é possível recolher patrimônio ainda não aplicado!</string>
+    <string name="patrimonio_nao_informado">% não informado!</string>
+    <string name="patrimonios_nao_informado">Existem itens que não foram informados. Favor verificar!</string>
+    <string name="title_activity_volume_information">Informação de Volume</string>
+    <string name="sem_rem_fut">Não há pedidos para remessa futura entrega.</string>
+    <string name="title_activity_fut_view">Pedidos Remessa Fut. Entrega</string>
+    <string name="confirmar_fut_entrega">Detalhe da Remessa de Futura Entrega:\n%s</string>
+    <string name="no_items">Não há itens disponíveis para o cliente.</string>
+    <string name="numero_rec">Número do REC:</string>
+    <string name="customer_service_message">- Código: %d - %s - End: %s - Bairro: %s - CNPJ: %s - IE: %s</string>
+    <string name="pesagem">Pesagem</string>
+    <string name="dif_nivel">Diferença de Nível</string>
+
+    <string name="tanque">Tanque</string>
+    <string name="antes">Antes</string>
+    <string name="depois">Depois</string>
+    <string name="vol_pol">Vol.Pol.</string>
+    <string name="vol_m3_kg">Vol.M3/Kg</string>
+    <string name="num_tanque">Tanque: %s</string>
+    <string name="capacidade_pol">Cap.Pol/PSI: %f</string>
+    <string name="capacidade_m3_kg">Cap. M3/Kg: %f</string>
+    <string name="fator_conv">Fator Conversão (M3/Kg): %f</string>
+    <string name="nivelAntes">Nível Antes (Pol.)</string>
+    <string name="nivelDepois">Nível Depois (Pol.)</string>
+    <string name="total_descarregado">Total Descarregado M3: %f</string>
+    <string name="erro_volume">Não será possível realizar o cálculo de volume!</string>
+    <string name="perda_info_peso">As informações de peso informadas serão perdidas. Deseja continuar?</string>
+    <string name="perda_info_dif_nivel">As informações de diferença de nível informadas serão perdidas. Deseja continuar?</string>
+    <string name="selecione">Selecione uma das opções acima!</string>
+    <string name="select_report">Selecione o relatório a ser impresso!</string>
+    <string name="select_printer">Selecione a impressora para parear!</string>
+    <string name="pesoAntes">Peso Antes</string>
+    <string name="pesoDepois">Peso Depois</string>
+    <string name="diferenca">Diferença: %f</string>
+    <string name="erro_peso">Nível depois deve ser maior que o nível antes!</string>
+    <string name="peso_0">Pesos antes ou depois não informados! Deseja prosseguir para digitação do Volume Descarregado?</string>
+    <string name="erro_volume_selecao">Selecione uma das opções para efetuar o cálculo de volume!</string>
+    <string name="peso_antes_invalido">Peso antes não informado!</string>
+    <string name="peso_depois_invalido">Peso depois não informado!</string>
+    <string name="sem_volume_informado">Não foram informados Volumes para nenhum dos Tanques! Deseja prosseguir para digitação do Volume Descarregado?</string>
+    <string name="tanques_informar_todos">Favor informar para todos os tanques, dados válidos para cálculo do volume descarregado!</string>
+    <string name="pesos_iguais">Não há diferença entre os pesos informados. Deseja prosseguir?</string>
+    <string name="nivel_antes_maior">Nível não pode ser maior que a capacidade do tanque!</string>
+    <string name="nivel_depois_maior">Nível não pode ser maior que a capacidade do tanque!</string>
+    <string name="nivel_depois_menos_nivel_antes">Nível depois deve ser maior que o nível antes!</string>
+    <string name="selecionar_tanque">Selecione um tanque para informar os níveis!</string>
+    <string name="title_activity_transfer">Menu Transferência</string>
+    <string name="title_activity_tranfer_menu">Menu Transferência</string>
+    <string name="erro_fila_cancelamento">Erro ao enviar cancelamento.</string>
+    <string name="erro_fila_envio">Erro ao enviar nota fiscal.</string>
+    <string name="reprint_cec">Deseja reimprimir o %s da nota Número: %d Série: %d?</string>
+    <string name="bytes">"Baixados: %d bytes de %d bytes"</string>
+    <string name="libera_operacao_s8">Libera operação</string>
+    <string name="lock_trip">A Viagem será encerrada. Os dados serão perdidos!</string>
+
+    <string name="find_customer">Recuperando Cliente</string>
+    <string name="cliente_invalido">Digite um Código de Cliente válido!</string>
+    <string name="recuperar_cliente">Deseja recuperar/atualizar os dados do cliente?</string>
+    <string name="cia_nao_carregada">Não é possível recuperar Companhia não carregada na viagem!</string>
+    <string name="msg_recuperar_cliente">Atenção! Aguarde a finalização do processo de recuperação do cliente!</string>
+    <string name="send_customer">Enviando Recuperação de Cliente</string>
+    <string name="erro_recovery_client">Não foi possível recuperar o cliente! \nDeseja fazer nova tentativa?</string>
+    <string name="erro_buscar_cliente_refazer">Não foi possível recuperar o cliente. Processo Refazer Viagem não poderá ser realizado! \n%s</string>
+    <string name="erro_buscar_cliente">Não foi possível recuperar o cliente. \n\n%s</string>
+    <string name="buscar_cliente_nao_concluido">Processamento do cliente ainda não foi concluído! \nDeseja fazer nova tentativa?</string>
+    <string name="cliente_recuperado_sucesso">%d - %s recuperado com sucesso!</string>
+    <string name="fim_viagem">Confirma fim da viagem?</string>
+    <string name="title_activity_invoice_pendent">Notas Pendentes de Envio</string>
+    <string name="title_activity_cecs_pendent">Cecs Pendentes de Envio</string>
+    <string name="title_activity_report">Impressão de Relatórios</string>
+    <string name="nota_fiscais">1. Notas Fiscais</string>
+    <string name="contagem_fisica">2. Contagem Física</string>
+    <string name="situacao_carga">3. Situação de Carga da Viagem</string>
+    <string name="contagem_fisica_hc">4. Contagem Física HC</string>
+    <string name="movimentacao_hc">5. Movimentação HC</string>
+    <string name="simples_uc">6. Simples Conferência HC</string>
+    <string name="volume_descarregado">7. Cálculo de Volume Descarregado</string>
+    <string name="imprimir_relatorio">Deseja imprimir os relatórios de fim de viagem?</string>
+    <string name="title_activity_finish_trip">Finalizando Viagem</string>
+    <string name="title_activity_delete_data_base">Apagando Tabelas</string>
+    <string name="title_activity_counter_cilinder">Contagem Física de Cilindros</string>
+    <string name="cheio">Cheio</string>
+    <string name="vazio">Vazio</string>
+    <string name="cheios">Cheios:</string>
+    <string name="vazios">Vazios:</string>
+    <string name="title_activity_confirm_count_cylinder">Contagem Total</string>
+    <string name="invalid_counter">Divergência na contagem.</string>
+    <string name="title_activity_counter_hc">Contagem Física Homecare</string>
+    <string name="title_activity_confirm_count_hc">Contagem Total Homecare</string>
+    <string name="parcial">(PARCIAL)</string>
+    <string name="destacar_relatorio">Destaque o relatório!</string>
+    <string name="relatorio">relatório</string>
+    <string name="aplicado">Aplicado:</string>
+    <string name="recolhido">Recolhido:</string>
+    <string name="erro_enviar_notas">Erro ao sincronizar notas ficais. \n\nA viagem não poderá ser finalizada.</string>
+    <string name="erro_enviar_cecs">Existem Cecs que não puderam ser enviados. \n\nA viagem não poderá ser finalizada.</string>
+    <string name="print_reports">Deseja imprimir os relatórios de fim de viagem?</string>
+    <string name="print_invoice_report">Deseja imprimir o relatório de notas fiscais?</string>
+    <string name="found_invoices">Notas pendentes/processando: %d</string>
+    <string name="comp_carga">Complemento de Carga</string>
+    <string name="title_activity_next_trip">Viagem Múltipla</string>
+    <string name="viagem_multipla">Viagem Múltipla</string>
+    <string name="nova_viagem">Será iniciada uma nova viagem!\nConfirmar dados!</string>
+    <string name="sequencia">Sequência: %d de %d</string>
+    <string name="numero_viagem">Número da Viagem: %d</string>
+    <string name="odometro_invalido">Hodômetro deve ser superior a %d.</string>
+    <string name="title_activity_config">ConfigActivity</string>
+    <string name="aguarde">Aguarde…</string>
+    <string name="liberar_refazer">Libera Operação de Refazer Viagem - NFe</string>
+    <string name="liberar_refazer_2">O sistema OBC irá recuperar as Notas Fiscais emitidas na viagem! Confirma?</string>
+    <string name="no_invoices">Não existem Notas Fiscais emitidas!</string>
+    <string name="no_invoices_recovery">Nenhuma nota recuperada para viagem!</string>
+    <string name="sync_warning_1">Atenção! Aguarde a finalização do processo de sincronismo de viagem!</string>
+    <string name="sync_warning_2">Atenção Processo de recuperação de Notas Fiscais em andamento!       Aguarde…</string>
+
+    <string name="sync_travel_2">Sincronizando viagem.</string>
+    <string name="sync_travel">Sincronizando Viagem: %d\n Data viagem: %s.</string>
+    <string name="verify_client_sync">Verificando clientes viagem: %d.</string>
+    <string name="title_activity_recovery_client_view">Recuperação de Clientes</string>
+
+    <string name="numero_viagem_2">Viagem</string>l
+    <string name="data_viagem">Data</string>
+    <string name="sync_finished">Sincronização de viagem finalizada.</string>
+    <string name="erro_sync">Erro ao sincronizar viagem!</string>
+    <string name="title_sync_invoices">Notas Recuperadas</string>
+    <string name="title_lost_invoices">Notas Fiscais a Emitir</string>
+    <string name="lost_invoices_1">Existem notas que não foram recuperadas e deverão ser refeitas.
+        \n\nSelecione a opção ATENDIMENTO AO CLIENTE para emissão notas que não foram recuperadas!</string>
+    <string name="lost_invoices_2">Atenção! Se todas as notas foram recuperadas, prossiga com o FIM DE VIAGEM!
+        \n\nCaso contrário, selecione a opção ATENDIMENTO AO CLIENTE para emissão notas que não foram recuperadas!</string>
+    <string name="tipo">Tipo Nota</string>
+    <string name="data_invalida">Data deve estar entre as datas:\n\n%s e %s.</string>
+    <string name="data_nota">Clique para alterar a data de emissão:</string>
+    <string name="cond_pagto_error">Somente é permitido itens com a mesma condição de pagamento.</string>
+    <string name="pp_wm_error">Não é permitido Cilindros PP e SAWM na mesma nota.</string>
+    <string name="nao_pode_cancelar">Somente notas fiscais autorizadas podem ser canceladas.</string>
+    <string name="informar_nome_rg_assinatura">Favor informar o nome e um documento válido (RG ou CPF).</string>
+    <string name="selecione_nota_cancelar">Selecione uma nota para cancelar.</string>
+    <string name="selecione_nota_reimprimir">Selecione uma nota para reimpirmir.</string>
+    <string name="selecione_nota_emitir">Selecione uma nota para emitir.</string>
+    <string name="no_invoices_customer">Não há notas para consultar.</string>
+    <string name="finish_travel_header">Atenção! Aguarde a finalização do processo de fim de Viagem.</string>
+    <string name="finish_travel_status">Atenção! Aguarde a finalização do processo de fim de Viagem.</string>
+    <string name="finish_travel_footer">Atenção! Não é permitido reiniciar o dispositivo (BOOT) até que a finalização da viagem seja concluída.</string>
+    <string name="prepare_print">Prepare a impressora para impressão da %dª via do %s!</string>
+    <string name="prepare_print_2">Prepare a impressora para impressão do relatório!</string>
+    <string name="sincronizando_horario">Sincronizando horário.</string>
+    <string name="pedent_invoices">Existem notas pendentes de envio.</string>
+    <string name="msg_nova_tentativa_fim">Não foi possível realizar o fim de viagem. Deseja realizar nova tentativa?</string>
+    <string name="offline">Emissão Offline</string>
+    <string name="avaliacao">Avaliação de Satisfação</string>
+    <string name="create_cecs">Gerando as Imagens dos Cecs</string>
+    <string name="create_invoices">Gerando as Notas Fiscais</string>
+    <string name="txt_extension">txt</string>
+    <string name="zip_extension">zip</string>
+    <string name="exit_message">OS DADOS DA VIAGEM SERÃO PERDIDOS.\nCaso haja alguma nota emitida, a viagem precisará ser refeita.\n\nConfirma?</string>
+    <string name="exit">Sair</string>
+    <string name="exit_title">Encerramento do Aplicativo</string>
+    <string name="prepare_download">Preparando download…</string>
+    <string name="url_nfe">Servidor de Comunicação</string>
+    <string name="title_activity_bluetooth_discover">Pareamento da Impessora</string>
+    <string name="finish_travel_text">Viagem finalizada com sucesso!</string>
+    <string name="config_printer">Parear Impressora</string>
+    <string name="printer_discover">Localizando Impressoras…</string>
+    <string name="turn_on_printer">Desligue e ligue a Impressora! \Deseja realizar nova tentativa?</string>
+    <string name="find_printers">Buscando impressoras bluetooth…</string>
+    <string name="pair_print">Parear a impressora %s?</string>
+    <string name="pair_error">Erro ao efetuar pareamento com a impressora!</string>
+    <string name="pair_info">Não há nenhuma impressora pareada com este dispositivo. Favor parear!</string>
+    <string name="printer_name">Impressora pareada:</string>
+    <string name="buscar_impressora">Buscar Impressoras</string>
+    <string name="printer_on">Certifique-se de que a impressora esteja ligada e o bluetooth ativado
+        no dispositivo.</string>
+    <string name="charge_error">Ocorreu um erro no processo de carga da viagem.\n\n(Inconsistência no arquiuvo da viagem).</string>
+    <string name="confirm_sync">A viagem será refeita. \n\nConfirma?</string>
+    <string name="seed_error">Erro ao comunicar com o servidor!</string>
+    <string name="show_travel_data">Visualizar Dados da Viagem</string>
+    <string name="nota_cancelada">Nota já cancelada!</string>
+    <string name="title_activity_chage_consult">ChageConsultActivity</string>
+    <string name="menu_report_charge_consult">Consulta Situação da Carga</string>
+    <string name="saldo">Saldo</string>
+    <string name="total_manifestado">Manifestado</string>
+    <string name="title_activity_invoice_vor">Remessa Venda Ordem</string>
+    <string name="vor_message">Entrar em contato com a central de informações Venda Ordem pelo telefone: %s</string>
+    <string name="invoice_obc">Nota Fiscal OBC:</string>
+    <string name="total_itens">Total de Itens:</string>
+    <string name="invoice_jde">Nota Fiscal JDE:</string>
+    <string name="serie_jde">Série JDE:</string>
+    <string name="invoice_jde_error">Informar a nota fiscal JDE.</string>
+    <string name="serie_jde_error">Informar a série da nota JDE.</string>
+    <string name="customer_message">Mensagem para o Cliente</string>
+    <string name="driver_message">Mensagem para o Motorista</string>
+    <string name="informar_filial">Informar a filial.</string>
+    <string name="informar_veiculo">Informar o veículo.</string>
+    <string name="invoice_jde_invalid">Número Nota Fiscal Inválido.</string>
+    <string name="all_informed">Total de cilindros já informado para o item.</string>
+    <string name="edit_cilindro">Deseja realizar nova leitura para o cilindro?</string>
+    <string name="consult_finish">Informações atualizadas!</string>
+    <string name="sync_error">Viagem sincronizada com erro.</string>
+    <string name="no_signature">O %s não foi assinado! \n\nConfirma?</string>
+    <string name="msg_apl">Atenção! No caso de Aplicação de cilindros, é necessário emitir anteriormente a respectiva nota fiscal de Venda ou Remessa Faturamento Homecare! Confirma a operação?</string>
+    <string name="patrimonio_cod_bar">Ler código de barra do patrimônio</string>
+    <string name="informar_patrimonio">Favor informar o número do patrimônio!</string>
+    <string name="grant_admin">Admin device</string>
+    <string name="valor_total_invalido">Valor pago inválido!</string>
+    <string name="recibo">Recibo</string>
+    <string name="preco_n_alterado">Os valores não foram alterados!\nConfirmar?</string>
+    <string name="rcl_nf">Com Nota Fiscal WM</string>
+    <string name="rcl_cli">Com Nota Fiscal do Cliente</string>
+    <string name="tipo_rcl">Seleção do Tipo de Recolhimento</string>
+    <string name="erro_data_pos">Data da viagem posterior a data atual. Confirma?</string>
+    <string name="erro_data_ant">Data da viagem anterior a data atual. Confirma?</string>
+    <string name="no_payments">Não há pagamentos informados!</string>
+    <string name="sobre_nome_text">Nome/Sobrenome: </string>
+    <string name="rcl_done">Recolhimento realizado com sucesso!</string>
+    <string name="data_emissao">Data Emissão</string>
+    <string name="erro_zip_file">Erro no download do arquivo da viagem! \nRealize nova tentativa.</string>
+    <string name="no_sim_card">Equipamento sem chip!!! Favor verificar! O sistema OBC não permitirá que a viagem se inicie sem chip no dispositivo.</string>
+    <string name="DANFE_OFF">DANFE Simplificado em Contingência</string>
+    <string name="erro_inesperado">Ocorreu um erro inesperado!\nO sistema será encerrado.\nPor favor, execute o aplicativo novamente.</string>
+    <string name="print_ok">Relatório foi impresso corretamente?</string>
+    <string name="next_invoice">Emissão da nota deve estar entre as datas:\n%s\n%s</string>
+    <string name="cliente_prazo">    Cliente com\ncondição de pagamento a prazo!   </string>
+    <string name="confirmar_a_vista">Cliente com condição de pagamento a prazo! Se o valor da nota for informado em outro campo, a Venda será À VISTA!</string>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_content_inset_material">24dp</dimen>
+    <dimen name="abc_action_bar_content_inset_with_nav">80dp</dimen>
+    <dimen name="abc_action_bar_default_height_material">64dp</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">8dp</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">8dp</dimen>
+    <dimen name="abc_config_prefDialogWidth">580dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="activity_vertical_margin">20dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="btn_edit_h">30dp</dimen>
+    <dimen name="btn_edit_w">30dp</dimen>
+    <dimen name="btn_fim_check_h">60dp</dimen>
+    <dimen name="btn_fim_check_w">300dp</dimen>
+    <dimen name="btn_trash_h">30dp</dimen>
+    <dimen name="btn_trash_w">30dp</dimen>
+    <dimen name="button_h">60dp</dimen>
+    <dimen name="button_w">150dp</dimen>
+    <dimen name="cust_btn_h">200dp</dimen>
+    <dimen name="cust_btn_w">200dp</dimen>
+    <dimen name="cust_edt_w">200dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+</resources>

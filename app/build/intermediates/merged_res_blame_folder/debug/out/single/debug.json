@@ -1,0 +1,766 @@
+[
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_reimpressao_cec.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_reimpressao_cec.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/menu_menu_config_printer.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/menu/menu_config_printer.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_finish_travel.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_finish_travel.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_lupa.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_lupa.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_input_motive_cancel.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_input_motive_cancel.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_iniciar_nova_viagem.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_iniciar_nova_viagem.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_item_cec_list_adapter.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/item_cec_list_adapter.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_fim_de_viagem.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_fim_de_viagem.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xhdpi_indicator_selected.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xhdpi/indicator_selected.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-hdpi_logo.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-hdpi/logo.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_begin_travel.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_begin_travel.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-xxhdpi_logo.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-xxhdpi/logo.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable_custom_button_normal.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable/custom_button_normal.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-hdpi_file.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-hdpi/file.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_invoice_send.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_invoice_send.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_editar.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_editar.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_confirm_count_cylinder.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_confirm_count_cylinder.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_payment_list_adapter.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/payment_list_adapter.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_customer_order.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_customer_order.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/menu_menu_app.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/menu/menu_app.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_volume_information.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_volume_information.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_charge_consult.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_charge_consult.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_next_trip.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_next_trip.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_reprint_cec.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_reprint_cec.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_transfer.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_transfer.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/xml_filepaths.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/xml/filepaths.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable_custom_button_text_color.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable/custom_button_text_color.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_refazer_vigem.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_refazer_vigem.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/menu_menu_exit.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/menu/menu_exit.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_limpar_nfe.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_limpar_nfe.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_information.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_information.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_add_message.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_add_message.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-hdpi_companylogo256.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-hdpi/companylogo256.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_question_color.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_question_color.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_content_payment_card.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/content_payment_card.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_content_search_question.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/content_search_question.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_finalizar.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_finalizar.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable_custom_button_selector.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable/custom_button_selector.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xhdpi_ic_chevron_right_24dp.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xhdpi/ic_chevron_right_24dp.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_input_tipo_item.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_input_tipo_item.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_send_progress_dialog.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_send_progress_dialog.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/menu_menu_settings.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/menu/menu_settings.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_input_password.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_input_password.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_confirmar.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_confirmar.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_search.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_search.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/xml_back.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/xml/back.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_ok_color.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_ok_color.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_finaliza_check_carga.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_finaliza_check_carga.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_begin_search.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_begin_search.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable_custom_edit_text_color.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable/custom_edit_text_color.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_load_travel.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_load_travel.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_calculadora.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_calculadora.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/menu_menu_confirm_client.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/menu/menu_confirm_client.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_proximo.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_proximo.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_recovery_client_view.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_recovery_client_view.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_splash_screen.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_emissao_relatorio.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_emissao_relatorio.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_find_printers.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_find_printers.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_transfere_estoque_2.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_transfere_estoque_2.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_printer_discover.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_printer_discover.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_customer_service.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_customer_service.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_list_view_charge_consult_adapter.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/list_view_charge_consult_adapter.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_ler_codigo_barra.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_ler_codigo_barra.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_signature.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_signature.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_recover_client.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_recover_client.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_alterar_parametros.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/alterar_parametros.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_invoice_pendent.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_invoice_pendent.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable_ic_info_black_24dp.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable/ic_info_black_24dp.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_complemento_carga.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_complemento_carga.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_information_color.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_information_color.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_remessa_faturamento_hc.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_remessa_faturamento_hc.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_item_list.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_item_list.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_lote_pat.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_lote_pat.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_item_list_adapter.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/item_list_adapter.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_add_item.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_add_item.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_transferencia_unidades.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_transferencia_unidades.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_atualizar.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_atualizar.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_remessa_prestacao_de_servico.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_remessa_prestacao_de_servico.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xhdpi_ic_bluetooth.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xhdpi/ic_bluetooth.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_input_numero_viagem.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_input_numero_viagem.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/menu_menu_default.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/menu/menu_default.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_image_pendent.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_image_pendent.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_voltar.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_voltar.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_invoice_finish.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_invoice_finish.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_input_odometro.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_input_odometro.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_content_volume_dif_nivel.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/content_volume_dif_nivel.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_ordem_de_troca_baixa_s8.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_ordem_de_troca_baixa_s8.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_cilinder_pp.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_cilinder_pp.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_error.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_error.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_customer_stop.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_customer_stop.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable_ic_people_black_24dp.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable/ic_people_black_24dp.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_invoice_sync.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_invoice_sync.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/xml_device_admin.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/xml/device_admin.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_confirm_travel_data.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_confirm_travel_data.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_cec.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_cec.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_list_view_printer.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/list_view_printer.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/menu_menu_customer_service.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/menu/menu_customer_service.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-hdpi_file_pdf.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-hdpi/file_pdf.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/menu_menu_client_stop.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/menu/menu_client_stop.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_transfere_estoque.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_transfere_estoque.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_confirm_client.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_confirm_client.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_recuperar_cliente.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_recuperar_cliente.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_error_color.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_error_color.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_transfer_menu.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_transfer_menu.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_discovery_results.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/discovery_results.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_voltar_2.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_voltar_2.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-hdpi_fm_express.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-hdpi/fm_express.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-mdpi_logo.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-mdpi/logo.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_bar_code.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_bar_code.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-xxxhdpi_logo_.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-xxxhdpi/logo_.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_transferencia_automatica.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_transferencia_automatica.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable_custom_shape.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable/custom_shape.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_input_pick_travel.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_input_pick_travel.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_information_color_old.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_information_color_old.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_consulta_cancela_nota_fiscal.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_consulta_cancela_nota_fiscal.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/menu_menu_report.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/menu/menu_report.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_invoice.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_invoice.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_remessa_venda_ordem.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_remessa_venda_ordem.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_recolhimento.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_recolhimento.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_invoice_rastreab.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_invoice_rastreab.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_list_view_item.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/list_view_item.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_cancelar.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_cancelar.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_configurar_conexao.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_configurar_conexao.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_report.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_report.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_continuar_viagem_andamento.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_continuar_viagem_andamento.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_consulta_dados_viagem.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_consulta_dados_viagem.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_trash.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_trash.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_testar_conexao.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_testar_conexao.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-hdpi_folder.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-hdpi/folder.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-hdpi_dologo.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-hdpi/dologo.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_payment_card.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_payment_card.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_item_price_list_adapter.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/item_price_list_adapter.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_count_hc.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_count_hc.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable_roundcorner.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable/roundcorner.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_config.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_config.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_atendimento_cliente.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_atendimento_cliente.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_invoice_lost.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_invoice_lost.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_venda.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_venda.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_list_view_customer.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/list_view_customer.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_customer_list.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_customer_list.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_charge_check.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_charge_check.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_invoice_vor.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_invoice_vor.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_fut_view.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_fut_view.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_consulta_cancela_nfe.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_consulta_cancela_nfe.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_count_cylinder.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_count_cylinder.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_listar.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_listar.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/menu_menu_client_detail_menu.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/menu/menu_client_detail_menu.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_avancar.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_avancar.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable_ic_launcher_background.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_input_tipo_rcl.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_input_tipo_rcl.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/menu_menu_find_printer.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/menu/menu_find_printer.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_limpar.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_limpar.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xhdpi_indicator_unselected.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xhdpi/indicator_unselected.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_anterior.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_anterior.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_operartions.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_operartions.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable_ic_home_black_24dp.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-xhdpi_logo.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-xhdpi/logo.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_activate_device.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_activate_device.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable_ic_sync_black_24dp.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable/ic_sync_black_24dp.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_activity_invoice_view.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/activity_invoice_view.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable_custom_background.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable/custom_background.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable_custom_button_selected.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable/custom_button_selected.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_remessa_futura_entrega.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_remessa_futura_entrega.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_question.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_question.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/layout_content_volume_peso.xml.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/layout/content_volume_peso.xml"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/mipmap-xxxhdpi_logo.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/mipmap-xxxhdpi/logo.png"
+    },
+    {
+        "merged": "br.com.whitemartins.obc.app-merged_res-5:/drawable-xxhdpi_ic_aplicacao.png.flat",
+        "source": "br.com.whitemartins.obc.app-main-7:/drawable-xxhdpi/ic_aplicacao.png"
+    }
+]

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="appColor">#00B159</color>
+    <color name="appTextColorWithBackground">#fafafa</color>
+    <color name="appTextColor">#1d1d1d</color>
+    <color name="appDisableButtonColor">#C4C3C3</color>
+    <color name="appDisableEditColor">#767676</color>
+    <color name="indicator_unselected">#4D000000</color>
+    <color name="red">#FF002D</color>
+    <color name="pressed_color">#1B55B6</color>
+</resources>

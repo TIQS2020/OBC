@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="@dimen/screen_padding"
+              tools:context="br.com.whitemartins.obc.views.InvoiceActivity">
+
+    <LinearLayout
+        android:id="@+id/screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTipoPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Pedido"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/order_sell_number_product"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtCodigoItemPedido"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="8"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/btnConfirmarPedido"
+                    android:layout_width="@dimen/button_w"
+                    android:layout_height="@dimen/button_h"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/appTextColorWithBackground"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/ic_confirmar"/>
+
+                <ImageButton
+                    android:id="@+id/btnListarItens"
+                    android:layout_width="@dimen/button_w"
+                    android:layout_height="@dimen/button_h"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginLeft="10dp"
+                    android:background="#fafafa"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/ic_listar"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/qtdItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/qtd_itens"
+
+            android:visibility="gone"/>
+
+        <ListView
+            android:id="@+id/listItemPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@xml/back"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            tools:listitem="@android:layout/test_list_item">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/qtdItemPedido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/qtd_itens_pedido"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:minHeight="@dimen/button_h"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+
+            <ImageButton
+                android:id="@+id/btnFinalizarPedido"
+                android:layout_width="@dimen/button_w"
+                android:layout_height="@dimen/button_h"
+                android:background="@color/appTextColorWithBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_finalizar"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

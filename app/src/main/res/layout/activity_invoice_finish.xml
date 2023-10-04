@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="@dimen/screen_padding"
+              tools:context="br.com.whitemartins.obc.views.InvoiceFinishActivity">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true">
+
+        <LinearLayout
+            android:id="@+id/screen"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTotalPedidoFim"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/total_order"
+                android:textColor="@color/pressed_color"
+                android:textSize="16sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/money" />
+
+                    <EditText
+                        android:id="@+id/edtDinheiroFim"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:maxLength="12" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/edtClientePrazo"
+                    android:layout_width="150sp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:background="@xml/back"
+                    android:gravity="center"
+                    android:maxWidth="10sp"
+                    android:text="@string/cliente_prazo"
+                    android:textColor="@color/red" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/change" />
+
+            <EditText
+                android:id="@+id/edtTrocoFim"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/check" />
+
+            <EditText
+                android:id="@+id/edtChequeFim"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+
+                android:enabled="true"
+                android:inputType="numberDecimal"
+                android:maxLength="12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/check_number" />
+
+            <EditText
+                android:id="@+id/edtNumChequeFim"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:inputType="number"
+                android:maxLength="8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/debit_card" />
+
+            <EditText
+                android:id="@+id/edtDebitoFim"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+
+                android:enabled="true"
+                android:inputType="numberDecimal"
+                android:maxLength="12" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/credit_card" />
+
+            <EditText
+                android:id="@+id/edtCreditoFim"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+
+                android:enabled="true"
+                android:inputType="numberDecimal"
+                android:maxLength="12" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/fatura" />
+
+            <EditText
+                android:id="@+id/edtFaturaFim"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+
+                android:enabled="false"
+                android:inputType="numberDecimal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/screen_padding">
+
+                <ImageButton
+                    android:id="@+id/btnConfirmarFimPedido"
+                    android:layout_width="@dimen/button_w"
+                    android:layout_height="@dimen/button_h"
+                    android:background="@color/appTextColorWithBackground"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/ic_finalizar" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

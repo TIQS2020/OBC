@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="@dimen/screen_padding"
+              tools:context="br.com.whitemartins.obc.views.AddItemActivity">
+
+    <LinearLayout
+        android:id="@+id/screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/item"/>
+
+        <TextView
+            android:id="@+id/txtSaldo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/screen_padding"
+            android:text="@string/saldo_disponivel"/>
+
+        <TextView
+            android:id="@+id/txtPreco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/screen_padding"
+            android:text="@string/price"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/edtPrecoItem"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:inputType="numberDecimal"/>
+
+            <ImageButton
+                android:id="@+id/btnEditarPrecoItem"
+                android:layout_width="@dimen/btn_edit_w"
+                android:layout_height="@dimen/btn_edit_h"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_editar"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtDepesasAcessorias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingTop="@dimen/screen_padding"
+            android:text="@string/certificado"/>
+
+        <EditText
+            android:id="@+id/edtCertificadoItem"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/txtFrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:paddingTop="@dimen/screen_padding"
+            android:text="@string/frete"/>
+
+        <EditText
+            android:id="@+id/edtFreteItem"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingTop="@dimen/screen_padding"
+            android:text="@string/quantidadeVendida"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtQtdItem"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:maxLength="8"/>
+
+            <ImageButton
+                android:id="@+id/btnCalculoVolumeAddItem"
+                android:layout_width="@dimen/btn_edit_w"
+                android:layout_height="@dimen/btn_edit_h"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_calculadora"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/screen_padding">
+
+            <ImageButton
+                android:id="@+id/btnConfimarAddItem"
+                android:layout_width="@dimen/button_w"
+                android:layout_height="@dimen/button_h"
+                android:background="#fafafa"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_confirmar"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

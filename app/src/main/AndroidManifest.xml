@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="false" />
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:usesCleartextTraffic="true"
+        android:name=".views.DatabaseApp"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:icon">
+
+        <receiver
+            android:name="br.com.whitemartins.obc.receiver.DevAdminReceiver"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin" />
+        </receiver>
+
+        <activity
+            android:name=".views.InvoiceVorActivity"
+            android:label="@string/title_activity_invoice_vor" />
+        <activity
+            android:name=".views.ChargeConsultActivity"
+            android:label="@string/menu_report_charge_consult" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <activity android:name=".views.SplashScreemActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.SignatureActivity"
+            android:label="@string/signature_title" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <activity
+            android:name=".views.ConfirmTravelDataActivity"
+            android:label="@string/confirm_travel_data" />
+        <activity
+            android:name=".views.CustomerServiceActivity"
+            android:label="@string/customer_service_label" />
+        <activity
+            android:name=".views.CustomerStopActivity"
+            android:label="@string/client_select" />
+        <activity
+            android:name=".views.RecoverClientActivity"
+            android:label="@string/title_activity_recovery_client_view" />
+        <activity
+            android:name=".views.ConfirmCustomerActivity"
+            android:label="@string/confirm_travel_client" />
+        <activity
+            android:name=".views.OperationsActivity"
+            android:label="@string/client_stop" />
+        <activity
+            android:name=".views.CustomerListActivity"
+            android:label="@string/client_list_title" />
+        <activity
+            android:name=".views.InvoiceActivity"
+            android:label="@string/order_sell" />
+        <activity
+            android:name=".views.AddItemActivity"
+            android:label="@string/add_item" />
+        <activity
+            android:name=".views.InvoiceRastreabActivity"
+            android:label="@string/rastreabilidade" />
+        <activity
+            android:name=".views.InvoiceFinishActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/finish_order"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".views.CecActivity"
+            android:label="@string/titulo_cec" />
+        <activity android:name=".views.BarCodeActivity" />
+        <activity
+            android:name=".views.ItemListActivity"
+            android:label="@string/product_list_title" />
+        <activity
+            android:name=".views.LoadTravelActivity"
+            android:label="@string/title_activity_load_travel" />
+        <activity
+            android:name=".views.ChargeCheckActivity"
+            android:label="@string/title_activity_charge_check" />
+        <activity
+            android:name=".views.BeginTravelActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_begin_travel" />
+        <activity
+            android:name=".views.AddMessageActivity"
+            android:label="@string/title_activity_add_message" />
+        <activity
+            android:name=".views.CilinderPPActivity"
+            android:label="@string/title_cilinder_pp" />
+        <activity
+            android:name=".views.ActivateDeviceActivity"
+            android:label="@string/title_activity_activate_user" />
+        <activity
+            android:name=".views.CustomerOrderActivity"
+            android:label="@string/title_activity_client_order" />
+        <activity
+            android:name=".views.ReprintCecActivity"
+            android:label="@string/title_activity_reimpressao" />
+        <activity
+            android:name=".views.SearchActivity"
+            android:label="@string/title_activity_search" />
+        <activity
+            android:name=".views.BeginSearchActivity"
+            android:label="@string/title_activity_begin_pesquisa" />
+        <activity
+            android:name=".views.PaymentCardActivity"
+            android:label="@string/title_activity_payment_card" />
+        <activity
+            android:name=".views.InvoiceViewActivity"
+            android:label="@string/title_activity_invoice_view" />
+        <activity
+            android:name=".views.InvoiceSyncActivity"
+            android:label="@string/title_sync_invoices" />
+        <activity
+            android:name=".views.InvoiceLostActivity"
+            android:label="@string/title_lost_invoices" />
+        <activity
+            android:name=".views.LotePatActivity"
+            android:label="@string/title_activity_lot_pat" />
+        <activity
+            android:name=".views.VolumeInformationActivity"
+            android:label="@string/title_activity_volume_information" />
+        <activity
+            android:name=".views.FutViewActivity"
+            android:label="@string/title_activity_fut_view" />
+        <activity
+            android:name=".views.TransferActivity"
+            android:label="@string/title_activity_transfer" />
+        <activity
+            android:name=".views.TransferMenuActivity"
+            android:label="@string/title_activity_tranfer_menu" />
+        <activity
+            android:name=".views.InvoicePendentActivity"
+            android:label="@string/title_activity_invoice_pendent" />
+        <activity
+            android:name=".views.InvoiceImagePendentActivity"
+            android:label="@string/title_activity_cecs_pendent" />
+        <activity
+            android:name=".views.ReportActivity"
+            android:label="@string/title_activity_report" />
+        <activity
+            android:name=".views.FinishTravelActivity"
+            android:label="@string/title_activity_finish_trip" />
+        <activity
+            android:name=".views.DeleteBaseActivity"
+            android:label="@string/title_activity_delete_data_base" />
+        <activity
+            android:name=".views.CountCylinderActivity"
+            android:label="@string/title_activity_counter_cilinder" />
+        <activity
+            android:name=".views.CountHCActivity"
+            android:label="@string/title_activity_counter_hc" />
+        <activity
+            android:name=".views.NextTripActivity"
+            android:label="@string/title_activity_next_trip" />
+        <activity
+            android:name=".views.ConfigActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".views.RecoveryClientViewActivity"
+            android:label="@string/title_activity_recovery_client_view" />
+        <activity
+            android:name=".views.PrinterDiscoverActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_bluetooth_discover" />
+    </application>
+
+</manifest>

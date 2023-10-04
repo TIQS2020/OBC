@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="@dimen/screen_padding"
+    tools:context="br.com.whitemartins.obc.views.LoadTravelActivity"
+    tools:layout_editor_absoluteX="20dp"
+    tools:layout_editor_absoluteY="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unidade"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <EditText
+                android:id="@+id/edtFilialCarga"
+                android:layout_width="@dimen/cust_edt_w"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:maxLength="6"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/nVeiculo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <EditText
+                android:id="@+id/edtNumVeiculoCarga"
+                android:layout_width="@dimen/cust_edt_w"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="4"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <ImageButton
+                android:id="@+id/btnEditarCarga"
+                android:layout_width="@dimen/btn_edit_w"
+                android:layout_height="@dimen/btn_edit_h"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@android:color/transparent"
+                android:foregroundGravity="center"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_editar"/>
+
+            <ImageButton
+                android:id="@+id/btnConfimarCarga"
+                android:layout_width="@dimen/button_w"
+                android:layout_height="@dimen/button_h"
+                android:layout_gravity="center"
+                android:background="@color/appTextColorWithBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_confirmar"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/pbar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressTint="@color/appColor"
+            android:progressTintMode="src_atop"/>
+
+        <TextView
+            android:id="@+id/textProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pbar1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/screen2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp">
+
+            <ImageButton
+                android:id="@+id/btnRefazerViagem"
+                android:layout_width="@dimen/cust_btn_w"
+                android:layout_height="@dimen/cust_btn_h"
+                android:background="#ffffff"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_transferencia_automatica"/>
+
+            <ImageButton
+                android:id="@+id/btConfigConnection"
+                android:layout_width="@dimen/cust_btn_w"
+                android:layout_height="@dimen/cust_btn_h"
+                android:background="#ffffff"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toEndOf="@+id/btnRefazerViagem"
+                app:srcCompat="@drawable/ic_configurar_conexao"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtVersao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:foregroundGravity="bottom"
+            android:gravity="bottom|center"
+            android:text="Versão: 1.00"/>
+
+    </LinearLayout>
+
+</LinearLayout>

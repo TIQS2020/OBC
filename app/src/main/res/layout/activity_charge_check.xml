@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/screen"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="@dimen/content_padding_normal"
+              tools:context="br.com.whitemartins.obc.views.ChargeCheckActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnAnteriorCheck"
+            android:layout_width="@dimen/btn_prior_next_w"
+            android:layout_height="@dimen/btn_prior_next_h"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="#fafafa"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_voltar"/>
+
+        <ImageButton
+            android:id="@+id/btnPosteriorCheck"
+            android:layout_width="@dimen/btn_prior_next_w"
+            android:layout_height="@dimen/btn_prior_next_h"
+            android:background="#fafafa"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_avancar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtDescricaoItemCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:text="@string/item"/>
+
+        <TextView
+            android:id="@+id/txtHeaderCheckCarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="@string/item"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listPatrimonios"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@xml/back"
+        android:padding="10dp"
+        tools:listitem="@android:layout/test_list_item">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/screen2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/appbar_padding_top"
+                android:text="@string/patrimonio"/>
+
+            <EditText
+                android:id="@+id/edtPatrimonio"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/appbar_padding_top"
+                android:inputType="number"
+                android:maxLength="6"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnConfimarCheckCarga"
+                    android:layout_width="@dimen/button_w"
+                    android:layout_height="@dimen/button_h"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="#fafafa"
+                    android:foregroundGravity="right"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/ic_confirmar"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtItemCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/item"/>
+
+        <TextView
+            android:id="@+id/txtPatrimoniosCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/patrimonios"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/btnBarcodeRastreabilidade"
+            android:layout_width="@dimen/button_w"
+            android:layout_height="@dimen/button_h"
+            android:layout_marginLeft="20dp"
+            android:background="@color/appTextColorWithBackground"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_ler_codigo_barra"/>
+
+        <ImageButton
+            android:id="@+id/btnFinalizarCheckCarga"
+            android:layout_width="@dimen/button_w"
+            android:layout_height="@dimen/button_h"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:background="#fafafa"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_finalizar"/>
+
+    </LinearLayout>
+</LinearLayout>

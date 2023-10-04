@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutPesoVolume"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtItemVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item_"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:id="@+id/txtFatorConvPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/fator_conv"/>
+
+    <TextView
+        android:id="@+id/txtNivelPolAntes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/pesoAntes"/>
+
+    <EditText
+        android:id="@+id/edtPesoAntes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/txtNivelPolDepois"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/pesoDepois"/>
+
+    <EditText
+        android:id="@+id/edtPesoDepois"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"/>
+
+    <TextView
+        android:id="@+id/txtDiferencaPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/diferenca"/>
+
+
+</LinearLayout>

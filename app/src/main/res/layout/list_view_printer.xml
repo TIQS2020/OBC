@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/txtCheck"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:checkMark="?android:attr/textCheckMark"
+          android:fontFamily="monospace"
+          android:gravity="center_vertical"
+          android:textColor="@color/appTextColor"
+          android:textSize="@dimen/text_size"
+    />

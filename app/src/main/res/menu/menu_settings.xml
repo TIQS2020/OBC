@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="br.com.whitemartins.obc.views.ConfigActivity">
+
+    <item
+        android:id="@+id/action_testar_conexao_config"
+        android:orderInCategory="100"
+        android:title="@string/test_config"
+        app:showAsAction="never"/>
+</menu>

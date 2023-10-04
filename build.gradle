@@ -1,0 +1,35 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    //ext.kotlin_version = '1.2.30'
+    repositories {
+        jcenter()
+//        jcenter {
+//            url "http://jcenter.bintray.com/"
+//        }
+        google()
+
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.2.2'
+    }
+}
+
+allprojects {
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+        jcenter()
+        google()
+        maven {
+            url "https://s3.amazonaws.com/repo.commonsware.com"
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+

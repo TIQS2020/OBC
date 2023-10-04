@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="@dimen/screen_padding"
+              tools:context="br.com.whitemartins.obc.views.OperationsActivity">
+
+    <TextView
+        android:id="@+id/txtCdClienteOperacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:textAlignment="center"
+
+        />
+
+    <TextView
+        android:id="@+id/txtDescClienteOperacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:textAlignment="center"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnVND"
+            android:layout_width="@dimen/cust_btn_w"
+            android:layout_height="@dimen/cust_btn_h"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_venda"/>
+
+        <ImageButton
+            android:id="@+id/btnAPL"
+            android:layout_width="@dimen/cust_btn_w"
+            android:layout_height="@dimen/cust_btn_h"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_aplicacao"/>
+
+        <ImageButton
+            android:id="@+id/btnRCL"
+            android:layout_width="@dimen/cust_btn_w"
+            android:layout_height="@dimen/cust_btn_h"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_recolhimento"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnTRC"
+            android:layout_width="@dimen/cust_btn_w"
+            android:layout_height="@dimen/cust_btn_h"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_ordem_de_troca_baixa_s8"/>
+
+        <ImageButton
+            android:id="@+id/btnFUT"
+            android:layout_width="@dimen/cust_btn_w"
+            android:layout_height="@dimen/cust_btn_h"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_remessa_futura_entrega"/>
+
+        <ImageButton
+            android:id="@+id/btnRFH"
+            android:layout_width="@dimen/cust_btn_w"
+            android:layout_height="@dimen/cust_btn_h"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_remessa_faturamento_hc"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnVOR"
+            android:layout_width="@dimen/cust_btn_w"
+            android:layout_height="@dimen/cust_btn_h"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_remessa_venda_ordem"/>
+
+        <ImageButton
+            android:id="@+id/btnRPS"
+            android:layout_width="@dimen/cust_btn_w"
+            android:layout_height="@dimen/cust_btn_h"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_remessa_prestacao_de_servico"/>
+
+        <ImageButton
+            android:id="@+id/btnConsultaNfeCliente"
+            android:layout_width="@dimen/cust_btn_w"
+            android:layout_height="@dimen/cust_btn_h"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_consulta_cancela_nota_fiscal"/>
+
+    </LinearLayout>
+
+</LinearLayout>

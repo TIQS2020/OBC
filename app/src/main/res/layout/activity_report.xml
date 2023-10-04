@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/screen"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="@dimen/screen_padding"
+              android:orientation="vertical"
+              tools:context="br.com.whitemartins.obc.views.ReportActivity">
+
+    <Switch
+        android:id="@+id/swtNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/nota_fiscais"
+        android:theme="@style/SwitchTheme"
+        />
+
+    <Switch
+        android:id="@+id/swtContgem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/contagem_fisica"
+        android:theme="@style/SwitchTheme"/>
+
+    <Switch
+        android:id="@+id/swtSituacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/situacao_carga"
+        android:theme="@style/SwitchTheme"/>
+
+    <Switch
+        android:id="@+id/swtContagemHC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/contagem_fisica_hc"
+        android:theme="@style/SwitchTheme"/>
+
+    <Switch
+        android:id="@+id/swtMovimentacaoHC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/movimentacao_hc"
+        android:theme="@style/SwitchTheme"/>
+
+    <Switch
+        android:id="@+id/swtSimiplesHC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/simples_uc"
+        android:theme="@style/SwitchTheme"/>
+
+    <Switch
+        android:id="@+id/swtVolumeDescarregado"
+        style="@style/SwitchTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/volume_descarregado"
+        android:theme="@style/SwitchTheme"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnConfirmarReport"
+            android:layout_width="@dimen/button_w"
+            android:layout_height="@dimen/button_h"
+            android:background="@color/appTextColorWithBackground"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_confirmar"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

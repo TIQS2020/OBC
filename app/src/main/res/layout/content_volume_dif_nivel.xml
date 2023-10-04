@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutDifNivelVolume"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txtTituloVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"/>
+
+    <ListView
+        android:id="@+id/lstVolumes"
+        android:layout_width="match_parent"
+        android:layout_height="85dp">
+
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/txtTanque"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/num_tanque"/>
+
+    <TextView
+        android:id="@+id/txtCapPol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/capacidade_pol"/>
+
+    <TextView
+        android:id="@+id/txtCapM3Kg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/capacidade_m3_kg"/>
+
+    <TextView
+        android:id="@+id/txtFatorConv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/fator_conv"/>
+
+    <TextView
+        android:id="@+id/txtNivelPolAntes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/nivelAntes"/>
+
+    <EditText
+        android:id="@+id/edtNivelAntes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/txtNivelPolDepois"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/nivelDepois"/>
+
+    <EditText
+        android:id="@+id/edtNivelDepois"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:inputType="numberSigned"/>
+
+</LinearLayout>

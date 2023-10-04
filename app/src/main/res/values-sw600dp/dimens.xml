@@ -1,0 +1,21 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="button_w">150dp</dimen>
+    <dimen name="button_h">60dp</dimen>
+    <dimen name="activity_vertical_margin">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="cust_btn_w">200dp</dimen>
+    <dimen name="cust_btn_h">200dp</dimen>
+    <dimen name="cust_edt_w">200dp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="btn_fim_check_w">300dp</dimen>
+    <dimen name="btn_fim_check_h">60dp</dimen>
+    <dimen name="btn_edit_w">30dp</dimen>
+    <dimen name="btn_edit_h">30dp</dimen>
+    <dimen name="btn_trash_w">30dp</dimen>
+    <dimen name="btn_trash_h">30dp</dimen>
+</resources>

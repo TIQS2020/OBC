@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/screen"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="@dimen/screen_padding"
+              android:orientation="vertical"
+              tools:context="br.com.whitemartins.obc.views.ReprintCecActivity">
+
+    <TextView
+        android:id="@+id/txtTituloReprintCec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/item"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/lstInvoiceReprintCec"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_weight="1"
+        tools:listitem="@android:layout/test_list_item"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <ImageButton
+            android:id="@+id/btnConfirmarInvoiceReprint"
+            android:layout_width="@dimen/button_w"
+            android:layout_height="@dimen/button_h"
+            android:background="@color/appTextColorWithBackground"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_confirmar"/>
+
+    </LinearLayout>
+
+</LinearLayout>

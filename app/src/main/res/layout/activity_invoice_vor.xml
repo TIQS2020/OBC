@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="@dimen/screen_padding"
+              tools:context="br.com.whitemartins.obc.views.InvoiceVorActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTipoPedidoVor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Pedido"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/txtCodClienteVor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/client_number"/>
+
+            <TextView
+                android:id="@+id/txtFilialVor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/unidade"/>
+
+
+            <TextView
+                android:id="@+id/txtNotaVor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/invoice_obc"/>
+
+            <TextView
+                android:id="@+id/txtTotalItemVor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@string/total_itens"/>
+
+
+            <TextView
+                android:id="@+id/qtdItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/qtd_itens"
+
+                android:visibility="gone"/>
+
+            <ListView
+                android:id="@+id/listItemVor"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@xml/back"
+                android:padding="10dp"
+                android:textAlignment="textStart"
+                tools:listitem="@android:layout/test_list_item"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/invoice_jde"/>
+
+            <EditText
+                android:id="@+id/edtNotaFiscalJDE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="7"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/serie_jde"/>
+
+            <EditText
+                android:id="@+id/edtSerieJDE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:maxLength="3"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="@dimen/screen_padding"
+                android:gravity="center"
+                android:minHeight="@dimen/button_h"
+                android:orientation="horizontal">
+
+
+                <ImageButton
+                    android:id="@+id/btnFinalizarPedidoVor"
+                    android:layout_width="@dimen/button_w"
+                    android:layout_height="@dimen/button_h"
+                    android:background="@color/appTextColorWithBackground"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/ic_finalizar"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

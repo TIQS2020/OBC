@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/screen"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="@dimen/screen_padding"
+              tools:context="br.com.whitemartins.obc.views.AddItemActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="10dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnAnteriorRastreab"
+            android:layout_width="@dimen/btn_prior_next_w"
+            android:layout_height="@dimen/btn_prior_next_h"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="#fafafa"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_voltar"/>
+
+        <ImageButton
+            android:id="@+id/btnPosteriorRastreab"
+            android:layout_width="@dimen/btn_prior_next_w"
+            android:layout_height="@dimen/btn_prior_next_h"
+            android:background="#fafafa"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_avancar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtDescricaoItemRastreab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:text="@string/item"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/item_list"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:background="@xml/back"
+        android:choiceMode="singleChoice"
+        android:padding="10dp"
+        tools:listitem="@android:layout/test_list_item"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/qtd_itens"
+        />
+
+    <EditText
+        android:id="@+id/txtQtd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:inputType="number"
+
+        />
+
+
+    <TextView
+        android:id="@+id/lblCilindro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/cylinder"/>
+
+    <EditText
+        android:id="@+id/txtCilindro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+
+        android:maxLength="9"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/lot"
+        />
+
+    <EditText
+        android:id="@+id/txtLote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="13"/>
+
+    <TextView
+        android:id="@+id/txtContadorCilindros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:text="Cilindros: 1/1"/>
+
+    <TextView
+        android:id="@+id/txtContadorRastreabItens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:text="Itens: 1/1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnConfirmarRastreabilidade"
+            android:layout_width="@dimen/button_w"
+            android:layout_height="@dimen/button_h"
+            android:background="@color/appTextColorWithBackground"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_confirmar"/>
+
+        <ImageButton
+            android:id="@+id/btnBarcodeRastreabilidade"
+            android:layout_width="@dimen/button_w"
+            android:layout_height="@dimen/button_h"
+            android:layout_marginLeft="20dp"
+            android:background="@color/appTextColorWithBackground"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_ler_codigo_barra"/>
+    </LinearLayout>
+
+</LinearLayout>

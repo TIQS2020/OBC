@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".views.VolumeInformationActivity">
+
+    <LinearLayout
+        android:id="@+id/screen"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/screen_padding"
+                android:gravity="top|center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioPesagem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pesagem"/>
+
+                <RadioButton
+                    android:id="@+id/radioDifNivel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/dif_nivel"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtSelecione"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|center"
+            android:text="@string/selecione"
+            android:textSize="15sp"/>
+
+        <include
+            android:id="@+id/pnlPeso"
+            layout="@layout/content_volume_peso"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"/>
+
+        <include
+            android:id="@+id/pnlDifNivel"
+            layout="@layout/content_volume_dif_nivel"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:visibility="invisible"/>
+
+
+        <TextView
+            android:id="@+id/txtTotalDescarregado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/total_descarregado"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="10dp"
+            android:gravity="bottom|center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnConfimarVolume"
+                android:layout_width="@dimen/button_w"
+                android:layout_height="@dimen/button_h"
+                android:background="#fafafa"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_confirmar"/>
+
+            <ImageButton
+                android:id="@+id/btnFinalizarVolume"
+                android:layout_width="@dimen/button_w"
+                android:layout_height="@dimen/button_h"
+                android:layout_marginStart="20dp"
+                android:background="#fafafa"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_finalizar"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/screen"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="br.com.whitemartins.obc.views.PaymentCardActivity">
+
+    <LinearLayout
+        android:id="@+id/screen2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtValorTotalPagamentoCartao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="TextView"/>
+
+        <ListView
+            android:id="@+id/lstPayments"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@xml/back"
+            android:choiceMode="singleChoice"
+            android:clickable="true"
+            android:descendantFocusability="blocksDescendants"
+            android:divider="#adb8c2"
+            android:dividerHeight="1dp"
+            android:focusable="false"
+            android:padding="5dp"
+            android:scrollingCache="false"
+            android:smoothScrollbar="true"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="41dp"
+            tools:listitem="@android:layout/test_list_item"/>
+
+        <TextView
+            android:id="@+id/txtCredenciadora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/appDisableButtonColor"
+            android:text="@string/credenciadora"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Spinner
+            android:id="@+id/spnCredenciadora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@android:layout/simple_list_item_1"/>
+
+        <TextView
+            android:id="@+id/txtBandeira"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/appDisableButtonColor"
+            android:text="@string/bandeira"/>
+
+        <Spinner
+            android:id="@+id/spnBandeira"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@android:layout/simple_list_item_1"/>
+
+        <TextView
+            android:id="@+id/txtAutorizacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/autorizacao"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtBandeira"/>
+
+        <EditText
+            android:id="@+id/edtAutorizacaoPagamentoCartao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="15"/>
+
+        <TextView
+            android:id="@+id/txtValorPago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:text="@string/valor_pago"/>
+
+        <EditText
+            android:id="@+id/edtValorPagoPagamentoCartao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.512"
+            app:layout_constraintStart_toEndOf="@+id/txtValorPago"
+            app:layout_constraintTop_toBottomOf="@+id/edtAutorizacaoPagamentoCartao"/>
+
+        <TextView
+            android:id="@+id/txtValorPedentePagamentoCartao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnConfirmarPagamentoCartao"
+                android:layout_width="@dimen/button_w"
+                android:layout_height="@dimen/button_h"
+                android:background="@color/appTextColorWithBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_confirmar"/>
+
+            <ImageButton
+                android:id="@+id/btnFinalizarPagamentoCartao"
+                android:layout_width="@dimen/button_w"
+                android:layout_height="@dimen/button_h"
+                android:layout_marginStart="20dp"
+                android:background="@color/appTextColorWithBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_finalizar"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

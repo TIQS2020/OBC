@@ -1,0 +1,17 @@
+br.com.whitemartins.obc.app-resValues-0 C:\OBC_Android\OBC_Android\app\build\generated\res\resValues\debug
+br.com.whitemartins.obc.app-rs-1 C:\OBC_Android\OBC_Android\app\build\generated\res\rs\debug
+br.com.whitemartins.obc.app-mergeDebugResources-2 C:\OBC_Android\OBC_Android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+br.com.whitemartins.obc.app-mergeDebugResources-3 C:\OBC_Android\OBC_Android\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+br.com.whitemartins.obc.app-merged_res-4 C:\OBC_Android\OBC_Android\app\build\intermediates\merged_res\debug
+br.com.whitemartins.obc.app-debug-5 C:\OBC_Android\OBC_Android\app\src\debug\res
+br.com.whitemartins.obc.app-main-6 C:\OBC_Android\OBC_Android\app\src\main\res
+br.com.whitemartins.obc.app-DataCollection-7 C:\Users\TIQS\.gradle\caches\transforms-3\03a60bea745db7454b651ad71b117a69\transformed\DataCollection\res
+br.com.whitemartins.obc.app-support-compat-28.0.0-8 C:\Users\TIQS\.gradle\caches\transforms-3\1e11a5af7f0d3d45c67f34fb832bf95f\transformed\support-compat-28.0.0\res
+br.com.whitemartins.obc.app-play-services-base-16.0.1-9 C:\Users\TIQS\.gradle\caches\transforms-3\283838da17d6f5c122826b25ef1ea092\transformed\play-services-base-16.0.1\res
+br.com.whitemartins.obc.app-appcompat-v7-28.0.0-10 C:\Users\TIQS\.gradle\caches\transforms-3\426490974910858985145f2b26d9c2de\transformed\appcompat-v7-28.0.0\res
+br.com.whitemartins.obc.app-support-media-compat-26.1.0-11 C:\Users\TIQS\.gradle\caches\transforms-3\42c0123dafb86188a34fd429e5b14caa\transformed\support-media-compat-26.1.0\res
+br.com.whitemartins.obc.app-zxing-android-embedded-3.6.0-12 C:\Users\TIQS\.gradle\caches\transforms-3\4dce176ad9e013597fdee8356aba102c\transformed\zxing-android-embedded-3.6.0\res
+br.com.whitemartins.obc.app-coordinatorlayout-28.0.0-13 C:\Users\TIQS\.gradle\caches\transforms-3\7487ef93776c80d1558d8a642aff7d72\transformed\coordinatorlayout-28.0.0\res
+br.com.whitemartins.obc.app-constraint-layout-2.0.0-beta3-14 C:\Users\TIQS\.gradle\caches\transforms-3\9988574a17e94d090305f4f5df85a176\transformed\constraint-layout-2.0.0-beta3\res
+br.com.whitemartins.obc.app-timePickerWithSeconds-1.0.1-15 C:\Users\TIQS\.gradle\caches\transforms-3\d7cf89d601f7787c64d4a8f4bf20c00f\transformed\timePickerWithSeconds-1.0.1\res
+br.com.whitemartins.obc.app-play-services-basement-16.1.0-16 C:\Users\TIQS\.gradle\caches\transforms-3\e5e05458ca577f6c4e3473d4286120e4\transformed\play-services-basement-16.1.0\res

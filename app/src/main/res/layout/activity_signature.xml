@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/screen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="br.com.whitemartins.obc.views.SignatureActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/txtNomeAssinatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:maxLength="30"
+            android:text="@string/sobre_nome_text"/>
+
+        <EditText
+            android:id="@+id/edtNomeAssinatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="50"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYçÇZabcdefghijklmnopqrstuvwxyz1234567890:;,.-!?/%@() "
+            android:inputType=""/>
+
+        <TextView
+            android:id="@+id/txtRGAssinatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:maxLength="20"
+            android:text="@string/rg_text"/>
+
+        <EditText
+            android:id="@+id/edtRGAssinatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:maxLength="20"
+            android:inputType="number"/>
+
+        <br.com.whitemartins.obc.util.CanvasView
+            android:id="@+id/canvas"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_above="@+id/sav_canvas"
+            android:layout_margin="@dimen/screen_padding"
+            android:background="@color/common_google_signin_btn_text_dark_pressed"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/btnConfimar"
+                android:layout_width="@dimen/button_w"
+                android:layout_height="@dimen/button_h"
+                android:layout_marginStart="20dp"
+                android:background="#fafafa"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_confirmar"/>
+
+            <ImageButton
+                android:id="@+id/btnLimpar"
+                android:layout_width="@dimen/button_w"
+                android:layout_height="@dimen/button_h"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#fafafa"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_limpar"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+

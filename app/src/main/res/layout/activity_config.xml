@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/screen_padding"
+    android:orientation="vertical"
+    tools:context="br.com.whitemartins.obc.views.ConfigActivity">
+
+    <TextView
+        android:id="@+id/txtTimeOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total_time"
+        />
+
+    <EditText
+        android:id="@+id/edtTimeOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:inputType="textMultiLine|textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/txtRazao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:text="@string/charge_server"/>
+
+    <EditText
+        android:id="@+id/edtServidorComunicacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:breakStrategy="simple"
+        android:enabled="false"
+        android:inputType="textMultiLine|textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/txtContato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/contingency_server"/>
+
+    <EditText
+        android:id="@+id/edtServidorContigencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:breakStrategy="high_quality"
+        android:enabled="false"
+        android:inputType="textMultiLine|textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/txtStatusConfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aguarde"/>
+</LinearLayout>

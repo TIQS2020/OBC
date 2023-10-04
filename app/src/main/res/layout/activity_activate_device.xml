@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="@dimen/screen_padding"
+              tools:context=".views.ActivateDeviceActivity">
+
+    <LinearLayout
+        android:id="@+id/screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/imei"/>
+
+        <EditText
+            android:id="@+id/edtImei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/chave_ativacao"/>
+
+        <EditText
+            android:id="@+id/edtChaveAtivacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:inputType="text|number"
+            android:maxLength="6"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/url"/>
+
+        <TextView
+            android:id="@+id/edtUrlServidor"
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:layout_marginTop="10dp"
+            android:enabled="true"
+            android:inputType="textMultiLine"
+            android:lines="4"
+            android:maxLines="4"
+            android:scrollHorizontally="false"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnConfirmarAtivacao"
+                android:layout_width="@dimen/button_w"
+                android:layout_height="@dimen/button_h"
+                android:background="@color/appTextColorWithBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_confirmar"/>
+
+            <ImageButton
+                android:id="@+id/btnCancelarViagemAtivacao"
+                android:layout_width="@dimen/button_w"
+                android:layout_height="@dimen/button_h"
+                android:layout_marginLeft="10dp"
+                android:background="@color/appTextColorWithBackground"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_cancelar"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
